@@ -39,7 +39,7 @@ library(gtexture)
 df <- data.frame(from = c("a", "b", "c", "d", "a", "e", "e", "b"), to = c("b", "a", "a", "a", "e", "b", "c", "d"))
 g_named = igraph::graph_from_data_frame(df)
 
-# Assign node values
+# Assign node values corresponding to the node names
 vals_named = 1:5
 names(vals_named) = letters[1:5]
 
