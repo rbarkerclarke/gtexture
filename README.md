@@ -21,11 +21,11 @@ The current focus is, as previously mentioned, on application of GLCMs to fitnes
 The gtexture R package can be installed as follows:
 
 ```r
-# install from CRAN (coming soon)
-# install.packages("gtexture")
+# This package is available on CRAN
+install.packages("gtexture")
 
-# install using the remotes package
-remotes::install_github("rbarkerclarke/gtexture")
+# We do not recommend install using the remotes package
+# remotes::install_github("rbarkerclarke/gtexture")
 ```
 
 ## Example Usage 
